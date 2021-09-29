@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--MainVC-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="MainVC" customModule="windows_shopper" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="windowShopperBG" translatesAutoresizingMaskIntoConstraints="NO" id="1Zu-LY-JhB">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="windowShopperIcon" translatesAutoresizingMaskIntoConstraints="NO" id="99o-iV-rSF">
+                                <rect key="frame" x="137.5" y="35" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="4AM-bD-fdL"/>
+                                    <constraint firstAttribute="height" constant="100" id="b2d-Bc-Rpt"/>
+                                </constraints>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Your hourly wage" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="byQ-wG-cUP" customClass="CurrencyTextField" customModule="windows_shopper">
+                                <rect key="frame" x="75" y="210" width="225" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="oaw-1K-lMI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Item price" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uUs-GD-VF0" customClass="CurrencyTextField" customModule="windows_shopper">
+                                <rect key="frame" x="75" y="285" width="225" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="wpX-Cl-0gQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad" returnKeyType="send" enablesReturnKeyAutomatically="YES"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="32.45" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BAx-tz-gk7">
+                                <rect key="frame" x="69" y="380" width="237" height="50.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="42"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="hours" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mg3-WX-R0E">
+                                <rect key="frame" x="165.5" y="435.5" width="44" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="Gzx-aH-ELE"/>
+                                    <constraint firstAttribute="width" constant="44" id="h9F-13-Ksz"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hw7-Id-sCB">
+                                <rect key="frame" x="50" y="562" width="275" height="55"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55" id="1VX-ck-6Jc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="Clear  calculator">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="clearCalculatorPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IwA-0b-EFc"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="hw7-Id-sCB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="3YT-Jz-Svu"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="hw7-Id-sCB" secondAttribute="bottom" constant="50" id="4L0-1n-wzf"/>
+                            <constraint firstItem="99o-iV-rSF" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="35" id="5ql-YY-ArG"/>
+                            <constraint firstItem="1Zu-LY-JhB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="6jd-RD-6Rb"/>
+                            <constraint firstItem="BAx-tz-gk7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="73O-cX-ekf"/>
+                            <constraint firstItem="byQ-wG-cUP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="75" id="Afb-1o-Fcr"/>
+                            <constraint firstItem="1Zu-LY-JhB" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Bg3-RY-6Or"/>
+                            <constraint firstItem="BAx-tz-gk7" firstAttribute="width" secondItem="uUs-GD-VF0" secondAttribute="width" multiplier="1.05333" id="DqE-Fr-CZR"/>
+                            <constraint firstItem="1Zu-LY-JhB" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="NFd-kp-D4B"/>
+                            <constraint firstItem="uUs-GD-VF0" firstAttribute="top" secondItem="byQ-wG-cUP" secondAttribute="bottom" constant="25" id="RYa-oY-wSG"/>
+                            <constraint firstItem="byQ-wG-cUP" firstAttribute="top" secondItem="99o-iV-rSF" secondAttribute="bottom" constant="75" id="Vb5-VB-HDw"/>
+                            <constraint firstItem="99o-iV-rSF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cDZ-dK-cfN"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="byQ-wG-cUP" secondAttribute="trailing" constant="75" id="eRD-hN-qJH"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hw7-Id-sCB" secondAttribute="trailing" constant="50" id="f2I-2V-bbr"/>
+                            <constraint firstItem="uUs-GD-VF0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="75" id="f4D-fU-xIs"/>
+                            <constraint firstItem="Mg3-WX-R0E" firstAttribute="top" secondItem="BAx-tz-gk7" secondAttribute="bottom" constant="5" id="ki5-IU-z6t"/>
+                            <constraint firstItem="BAx-tz-gk7" firstAttribute="top" secondItem="uUs-GD-VF0" secondAttribute="bottom" constant="45" id="mXg-MA-wvA"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="uUs-GD-VF0" secondAttribute="trailing" constant="75" id="me0-0w-yrW"/>
+                            <constraint firstItem="1Zu-LY-JhB" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="rxZ-WT-RPr"/>
+                            <constraint firstItem="Mg3-WX-R0E" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="vDG-oA-d4R"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="hoursLbl" destination="Mg3-WX-R0E" id="BOI-Zo-zkY"/>
+                        <outlet property="priceText" destination="uUs-GD-VF0" id="bBC-oU-OQc"/>
+                        <outlet property="resultLbl" destination="BAx-tz-gk7" id="sEV-ae-kfy"/>
+                        <outlet property="wageText" destination="byQ-wG-cUP" id="xYh-DE-0zo"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="29.600000000000001" y="69.715142428785612"/>
+        </scene>
+    </scenes>
+    <designables>
+        <designable name="byQ-wG-cUP">
+            <size key="intrinsicContentSize" width="111.5" height="18.5"/>
+        </designable>
+        <designable name="uUs-GD-VF0">
+            <size key="intrinsicContentSize" width="65" height="18.5"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="windowShopperBG" width="414" height="736"/>
+        <image name="windowShopperIcon" width="115" height="115"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

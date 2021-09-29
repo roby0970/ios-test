@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E4E4AD1026EE3DB0005CCE01 /* windows_shopperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E4AD0F26EE3DB0005CCE01 /* windows_shopperTests.swift */; };
+		E4E4AD1926EE3DD5005CCE01 /* Wage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E4AD1826EE3DD5005CCE01 /* Wage.swift */; };
+		E4E4AD1A26EE3F0D005CCE01 /* Wage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E4AD1826EE3DD5005CCE01 /* Wage.swift */; };
+		E4F060FA26EE3195004936D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F060F926EE3195004936D5 /* AppDelegate.swift */; };
+		E4F060FC26EE3195004936D5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F060FB26EE3195004936D5 /* SceneDelegate.swift */; };
+		E4F060FE26EE3195004936D5 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F060FD26EE3195004936D5 /* MainVC.swift */; };
+		E4F0610126EE3195004936D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4F060FF26EE3195004936D5 /* Main.storyboard */; };
+		E4F0610326EE3196004936D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4F0610226EE3196004936D5 /* Assets.xcassets */; };
+		E4F0610626EE3196004936D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4F0610426EE3196004936D5 /* LaunchScreen.storyboard */; };
+		E4F0611026EE33C2004936D5 /* CurrencyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F0610F26EE33C2004936D5 /* CurrencyTextField.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E4E4AD1226EE3DB0005CCE01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4F060EE26EE3195004936D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4F060F526EE3195004936D5;
+			remoteInfo = "windows-shopper";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E4E4AD0D26EE3DB0005CCE01 /* windows-shopperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "windows-shopperTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4E4AD0F26EE3DB0005CCE01 /* windows_shopperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = windows_shopperTests.swift; sourceTree = "<group>"; };
+		E4E4AD1126EE3DB0005CCE01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4E4AD1826EE3DD5005CCE01 /* Wage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wage.swift; sourceTree = "<group>"; };
+		E4F060F626EE3195004936D5 /* windows-shopper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "windows-shopper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4F060F926EE3195004936D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E4F060FB26EE3195004936D5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E4F060FD26EE3195004936D5 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		E4F0610026EE3195004936D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E4F0610226EE3196004936D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E4F0610526EE3196004936D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E4F0610726EE3196004936D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4F0610F26EE33C2004936D5 /* CurrencyTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTextField.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4E4AD0A26EE3DB0005CCE01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4F060F326EE3195004936D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E4E4AD0E26EE3DB0005CCE01 /* windows-shopperTests */ = {
+			isa = PBXGroup;
+			children = (
+				E4E4AD0F26EE3DB0005CCE01 /* windows_shopperTests.swift */,
+				E4E4AD1126EE3DB0005CCE01 /* Info.plist */,
+			);
+			path = "windows-shopperTests";
+			sourceTree = "<group>";
+		};
+		E4E4AD1726EE3DBF005CCE01 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E4E4AD1826EE3DD5005CCE01 /* Wage.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E4F060ED26EE3195004936D5 = {
+			isa = PBXGroup;
+			children = (
+				E4F060F826EE3195004936D5 /* windows-shopper */,
+				E4E4AD0E26EE3DB0005CCE01 /* windows-shopperTests */,
+				E4F060F726EE3195004936D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E4F060F726EE3195004936D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4F060F626EE3195004936D5 /* windows-shopper.app */,
+				E4E4AD0D26EE3DB0005CCE01 /* windows-shopperTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4F060F826EE3195004936D5 /* windows-shopper */ = {
+			isa = PBXGroup;
+			children = (
+				E4E4AD1726EE3DBF005CCE01 /* Model */,
+				E4F0610E26EE3398004936D5 /* Views */,
+				E4F0610D26EE327E004936D5 /* Controller */,
+				E4F060F926EE3195004936D5 /* AppDelegate.swift */,
+				E4F060FB26EE3195004936D5 /* SceneDelegate.swift */,
+				E4F060FF26EE3195004936D5 /* Main.storyboard */,
+				E4F0610226EE3196004936D5 /* Assets.xcassets */,
+				E4F0610426EE3196004936D5 /* LaunchScreen.storyboard */,
+				E4F0610726EE3196004936D5 /* Info.plist */,
+			);
+			path = "windows-shopper";
+			sourceTree = "<group>";
+		};
+		E4F0610D26EE327E004936D5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E4F060FD26EE3195004936D5 /* MainVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E4F0610E26EE3398004936D5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E4F0610F26EE33C2004936D5 /* CurrencyTextField.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4E4AD0C26EE3DB0005CCE01 /* windows-shopperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4E4AD1626EE3DB0005CCE01 /* Build configuration list for PBXNativeTarget "windows-shopperTests" */;
+			buildPhases = (
+				E4E4AD0926EE3DB0005CCE01 /* Sources */,
+				E4E4AD0A26EE3DB0005CCE01 /* Frameworks */,
+				E4E4AD0B26EE3DB0005CCE01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4E4AD1326EE3DB0005CCE01 /* PBXTargetDependency */,
+			);
+			name = "windows-shopperTests";
+			productName = "windows-shopperTests";
+			productReference = E4E4AD0D26EE3DB0005CCE01 /* windows-shopperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E4F060F526EE3195004936D5 /* windows-shopper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4F0610A26EE3196004936D5 /* Build configuration list for PBXNativeTarget "windows-shopper" */;
+			buildPhases = (
+				E4F060F226EE3195004936D5 /* Sources */,
+				E4F060F326EE3195004936D5 /* Frameworks */,
+				E4F060F426EE3195004936D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "windows-shopper";
+			productName = "windows-shopper";
+			productReference = E4F060F626EE3195004936D5 /* windows-shopper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4F060EE26EE3195004936D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					E4E4AD0C26EE3DB0005CCE01 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = E4F060F526EE3195004936D5;
+					};
+					E4F060F526EE3195004936D5 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = E4F060F126EE3195004936D5 /* Build configuration list for PBXProject "windows-shopper" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E4F060ED26EE3195004936D5;
+			productRefGroup = E4F060F726EE3195004936D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E4F060F526EE3195004936D5 /* windows-shopper */,
+				E4E4AD0C26EE3DB0005CCE01 /* windows-shopperTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E4E4AD0B26EE3DB0005CCE01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4F060F426EE3195004936D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4F0610626EE3196004936D5 /* LaunchScreen.storyboard in Resources */,
+				E4F0610326EE3196004936D5 /* Assets.xcassets in Resources */,
+				E4F0610126EE3195004936D5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4E4AD0926EE3DB0005CCE01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4E4AD1026EE3DB0005CCE01 /* windows_shopperTests.swift in Sources */,
+				E4E4AD1A26EE3F0D005CCE01 /* Wage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4F060F226EE3195004936D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4F060FE26EE3195004936D5 /* MainVC.swift in Sources */,
+				E4F060FA26EE3195004936D5 /* AppDelegate.swift in Sources */,
+				E4E4AD1926EE3DD5005CCE01 /* Wage.swift in Sources */,
+				E4F0611026EE33C2004936D5 /* CurrencyTextField.swift in Sources */,
+				E4F060FC26EE3195004936D5 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E4E4AD1326EE3DB0005CCE01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4F060F526EE3195004936D5 /* windows-shopper */;
+			targetProxy = E4E4AD1226EE3DB0005CCE01 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E4F060FF26EE3195004936D5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4F0610026EE3195004936D5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E4F0610426EE3196004936D5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4F0610526EE3196004936D5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E4E4AD1426EE3DB0005CCE01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C65P43MH74;
+				INFOPLIST_FILE = "windows-shopperTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.robertsudec.windows-shopperTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/windows-shopper.app/windows-shopper";
+			};
+			name = Debug;
+		};
+		E4E4AD1526EE3DB0005CCE01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C65P43MH74;
+				INFOPLIST_FILE = "windows-shopperTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.robertsudec.windows-shopperTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/windows-shopper.app/windows-shopper";
+			};
+			name = Release;
+		};
+		E4F0610826EE3196004936D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E4F0610926EE3196004936D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E4F0610B26EE3196004936D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C65P43MH74;
+				INFOPLIST_FILE = "windows-shopper/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.robertsudec.windows-shopper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E4F0610C26EE3196004936D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C65P43MH74;
+				INFOPLIST_FILE = "windows-shopper/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.robertsudec.windows-shopper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4E4AD1626EE3DB0005CCE01 /* Build configuration list for PBXNativeTarget "windows-shopperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4E4AD1426EE3DB0005CCE01 /* Debug */,
+				E4E4AD1526EE3DB0005CCE01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4F060F126EE3195004936D5 /* Build configuration list for PBXProject "windows-shopper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4F0610826EE3196004936D5 /* Debug */,
+				E4F0610926EE3196004936D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4F0610A26EE3196004936D5 /* Build configuration list for PBXNativeTarget "windows-shopper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4F0610B26EE3196004936D5 /* Debug */,
+				E4F0610C26EE3196004936D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4F060EE26EE3195004936D5 /* Project object */;
+}
